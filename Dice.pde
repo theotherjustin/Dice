@@ -11,9 +11,9 @@ void draw()
 {
   background(255);
   totalRoll=0;
-  for(int y = 22 ; y <= 500 ; y +=28 )
+  for(int y = 22 ; y <= 495 ; y +=28 )
 {
-  for(int x = 0 ; x <= 504 ; x +=28) 
+  for(int x = 0 ; x <= 500 ; x +=28) 
   {
      fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
      
